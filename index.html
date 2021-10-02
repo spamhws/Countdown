@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Orbitron"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <div class="background"></div>
+    <div class="login">
+      <p>Welcome to the Andrew arrival countdown clock!</p>
+      <p>Please submit your name below:</p>
+      <input placeholder="Name" id="fname" autocomplete="off" autofocus />
+      <input id="btn" type="button" value="Submit" />
+      <p id="error">Only <b>Andrew</b> and <b>Yehor</b> can view this page!</p>
+    </div>
+    <div id="countdown" class="countdown hidden">
+      <p id="greet" class="invisible"></p>
+      <p id="clock" class="invisible"></p>
+      <p id="final" class="invisible">
+        Get ready to <span id="party">PARTY HARD</span>
+      </p>
+    </div>
+    <div class="signature">
+      <p>Designed by:</p>
+      <p>Yehor Sanko</p>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
