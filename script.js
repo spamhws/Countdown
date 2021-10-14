@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-const countDownDate = new Date("Oct 14, 2021 15:35:00").getTime()
+const countDownDate = new Date("Oct 14, 2021 15:35:00 GMT+02:00").getTime()
 
 // Update the count down every 1 second
 const x = setInterval(function () {
@@ -31,7 +31,7 @@ const x = setInterval(function () {
   // If the count down is over, write some text
   if (distance < 0) {
     clearInterval(x)
-    document.getElementById("clock").innerHTML = "EXPIRED"
+    document.getElementById("clock").innerHTML = "ANY MOMENT NOW!"
   }
 }, 100)
 
