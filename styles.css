@@ -404,3 +404,9 @@ input:focus {
       0 0 100px rgba(255, 255, 255, 0.1);
   }
 }
+
+@media screen and (max-height: 600px) {
+  .signature {
+    display: none;
+  }
+}
